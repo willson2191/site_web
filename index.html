@@ -1,13 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>documento001</title>
+    <meta name="descripcion" content="esta es mi primera pagina web" />
+    <meta autor="descripcion" content="wilson" />
+    <title>website</title>
+    <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <div class="content">
-      <h1 class="Logo">Contact <span>Us</span></h1>
+    <div class="agrupar">
+      <header class="cabecera">
+        <h1>Mi Blog</h1>
+      </header>
+
+      <nav class="menu">
+        <ul>
+          <li>Principal</li>
+          <li>Ayuda</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+
+      <section class="seccion">
+        <article>
+          <hgroup>
+            <h1>Titulo del primer articulo</h1>
+            <h2>Subtitulo del primer articulo</h2>
+          </hgroup>
+          <time datatime="20/09/2020">Publicado 20-09-2020</time>
+          <img src="images/vs.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia non,
+            corporis labore
+            <small>ipsa provident saepe asperiores nihil eius, quo quas</small>
+            culpa nostrum, aut dolore fuga a modi mollitia repellendus expedita.
+          </p>
+
+          <footer>
+            <p>Comentario(0)</p>
+          </footer>
+          <address>
+            <a href="https://www.hostinger.es/tutoriales/comandos-de-git"
+              >sitio web de prueba</a
+            >
+          </address>
+        </article>
+
+        <article>
+          <h1>Titulo del primer articulo</h1>
+          <h2>Subtitulo del primer articulo</h2>
+          <time datatime="20/09/2020">Publicado 20-09-2020</time>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia non,
+            corporis labore ipsa provident saepe asperiores nihil eius, quo quas
+            culpa nostrum, aut dolore fuga a modi mollitia repellendus expedita.
+          </p>
+          <footer>
+            <p>Comentario(0)</p>
+          </footer>
+        </article>
+      </section>
+      <aside class="columna">
+        <blockquote cite="http://www.peru.com" Mensaje 1 Mensaje 1>
+          mensaje 1
+        </blockquote>
+
+        <blockquote
+          cite="https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Resumen"
+          Mensaje
+          2
+        >
+          mensaje 2
+        </blockquote>
+      </aside>
+      <footer class="pie">Derechos reservados 2019-2020</footer>
     </div>
   </body>
 </html>

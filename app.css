@@ -1,0 +1,95 @@
+/* {
+  padding: 0px;
+  margin: 0px;
+}*/
+
+h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold 14px sans-serif;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+hgroup {
+  display: block;
+}
+body {
+  text-align: center;
+}
+.agrupar {
+  width: 1600px;
+  /* margin: 15px auto;
+    padding: 40px;
+    background-color: green;*/
+}
+.cabecera {
+  background-color: #fffbb9;
+  border: 1px solid #999999;
+  padding: 20px;
+}
+.cabecera h1 {
+  text-align: left;
+}
+
+.menu {
+  background-color: #5e5757;
+  padding: 5px 15px;
+}
+.menu li {
+  list-style: none;
+  padding: 5px;
+  font: bold 14px verdana;
+  display: inline-block; /*multiples elementos alineados uno al lado del otro
+  border: 1px solid black;*/
+}
+.seccion {
+  margin: 20px;
+  width: 60%;
+  border: 1px solid black;
+  float: left;
+  background-color: yellow;
+}
+.columna {
+  width: 35%;
+  border: 1px solid black;
+  float: left; /* flotar el bloque*/
+  background-color: yellow;
+  margin: 20px 0;
+}
+.pie {
+  clear: both; /*elimina caraterista anterior , de flotar */
+  padding: 20px;
+  background-color: black;
+  color: #fffbb9;
+}
+article {
+  background-color: #fffbcc;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 15px; /*margen hacia abajo de */
+}
+article footer {
+  text-align: right; /* alineados a la derecha*/
+  margin-top: 20px; /*margen hacia arriba de 20 px*/
+}
+img {
+  width: 80px; /* ancho de la imagen */
+  display: block;
+  margin: 20px auto; /*margen ariba abajo de 20px y los lados automatico*/
+}
+time {
+  color: #999999; /*cambiar el color de texto*/
+}
+.blockquote {
+  border: 1px solid black; /* borde */
+  padding: 20px;
+  background-color: blue;
+}
